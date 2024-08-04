@@ -47,7 +47,7 @@ LOGGING_CONFIG = {
             "class": "logging.handlers.RotatingFileHandler",
             "formatter": "default_formatter",
             "filename": "logs/app.log",
-            "maxBytes": 1024 * 1024,
+            "maxBytes": 1024 * 1024 * 10,
             "backupCount": 3
         },
 
